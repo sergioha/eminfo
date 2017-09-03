@@ -21,4 +21,4 @@ class Evento(models.Model):
 
 class Meta:
         ordering = ["Nombre"]
-        db_table = 'evento'
+        db_table = 'eventos'
