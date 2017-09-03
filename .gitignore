@@ -105,5 +105,3 @@ ENV/
 
 #others
 .idea/
-eminfo/
-manage.py
