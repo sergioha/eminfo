@@ -13,6 +13,13 @@
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
+  right: 10% !important;
+  left: auto !important;
+  top: 60pt !important;
+  width: 40%;
+}
+.carousel-item div.container{
+
 }
 .marketing .item {
   height: 500px;
