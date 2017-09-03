@@ -6,21 +6,6 @@
   height: 20pt;
   background-color: #FFFF00;
 }
-
-.marketing {
-  height: 500px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-  right: 10% !important;
-  left: auto !important;
-  top: 60pt !important;
-  width: 40%;
-}
-.carousel-item div.container{
-
-}
 .marketing .item {
   height: 500px;
   background-color: #777;
@@ -28,9 +13,16 @@
 .marketing .carousel-inner > .item > img {
   position: absolute;
   top: 0;
-  left: 50px;
-  min-width: 50%;
-  height: 500px;
+  left: 0;
+  width: 60%;
+  height: 100%;
+}
+.carousel-caption {
+  align-content: center;
+  left: 65% !important;
+  top: 20pt !important;
+  right: 5% !important;
+  width: 30%;
 }
 
 .informaciones{
@@ -48,4 +40,50 @@
 }
 .informaciones .carousel-caption p{
   color: #000000;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  .marketing .item {
+    height: 300px;
+    background-color: #777;
+  }
+  .marketing .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    clear: both;
+  }
+  .carousel-caption {
+    position: absolute;
+    align-content: center;
+    left: 15% !important;
+    right: 15% !important;
+    top: 50% !important;
+    width: 70%;
+    height: 50%;
+  }
+}
+
+@media  (max-width : 800px){
+  .marketing .carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    clear: both;
+  }
+  .carousel-caption {
+    position: absolute;
+    align-content: center;
+    left: 15% !important;
+    right: 15% !important;
+    top: 50% !important;
+    width: 70%;
+    height: 50%;
+  }
 }
