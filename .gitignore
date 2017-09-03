@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 #database files
 *.db
+*.pyc
 
 *settings.py
 # C extensions
