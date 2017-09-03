@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 #database files
 *.db
-
+*.pyc
 *settings.py
 # C extensions
 *.so
@@ -105,5 +105,4 @@ ENV/
 
 #others
 .idea/
-eminfo/
-manage.py
+*/migrations/
