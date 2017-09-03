@@ -105,3 +105,4 @@ ENV/
 
 #others
 .idea/
+*/migrations/
